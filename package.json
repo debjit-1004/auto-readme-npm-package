@@ -5,7 +5,7 @@
   "type": "module",
   "main": "src/cli.js",
   "bin": {
-    "autoreadme": "./src/cli.js"
+    "autoreadme": "src/cli.js"
   },
   "scripts": {
     "start": "autoreadme --watch",
@@ -43,5 +43,6 @@
   },
   "engines": {
     "node": ">=16.0.0"
-  }
+  },
+  "devDependencies": {}
 }
