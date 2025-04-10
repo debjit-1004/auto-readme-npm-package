@@ -1,0 +1,47 @@
+{
+  "name": "@debjit_kundu/auto-readme",
+  "version": "1.0.0",
+  "description": "Automatically generate beautiful README files for your projects using AI",
+  "type": "module",
+  "main": "src/cli.js",
+  "bin": {
+    "autoreadme": "./src/cli.js"
+  },
+  "scripts": {
+    "start": "autoreadme --watch",
+    "gen": "autoreadme --generate",
+    "init": "autoreadme --init",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/debjit-1004/auto-readme-npm-package.git"
+  },
+  "keywords": [
+    "readme",
+    "generator",
+    "documentation",
+    "markdown",
+    "ai",
+    "DeK"
+  ],
+  "author": "debjit kundu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/debjit-1004/auto-readme-npm-package/issues"
+  },
+  "homepage": "https://github.com/debjit-1004/auto-readme-npm-package#readme",
+  "dependencies": {
+    "chokidar": "^3.6.0",
+    "dotenv": "^16.3.1",
+    "globby": "^14.0.0",
+    "groq-sdk": "^0.19.0",
+    "limiter": "^2.1.0",
+    "lodash.debounce": "^4.0.8",
+    "yargs": "^17.7.2",
+    "enquirer": "^2.4.1"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
